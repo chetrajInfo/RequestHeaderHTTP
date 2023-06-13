@@ -99,17 +99,6 @@ public class HttpHeaderRequestAccept {
         return null;
     }
 
-    public static void main(String[] args) {
-        String jsonResponse = inputHeaderRequestAccept("https://jsonplaceholder.typicode.com/posts","application/json");
-        System.out.println();
-        System.out.println();
-        // Convert JSON to XML
-        String xmlResponse = convertJsonToXml(jsonResponse);
-        System.out.println("XML Response:\n" + xmlResponse);
-        System.out.println();
-        // Convert JSON to YAML
-        String yamlResponse = convertJsonToYaml(jsonResponse);
-        System.out.println("YAML Response:\n" + yamlResponse);
-    }
+
 
 }
